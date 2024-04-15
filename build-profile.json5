@@ -15,20 +15,6 @@
 
 {
   "app": {
-    "signingConfigs": [
-      {
-        "name": "default",
-        "material": {
-          "certpath": "/Users/mrzleo/.ohos/config/openharmony/auto_ohos_default_ArkTSDistributedCalc_tutorial.samples.etsdistributedcalc.cer",
-          "storePassword": "0000001B712F8E05B8471D9C6C32BF5CD33AE444C10D7EDE80FAEBC5B17DA2192CCD621D2F222FA92C72B4",
-          "keyAlias": "debugKey",
-          "keyPassword": "0000001BD193C366C222530FA360F35E9393F7E73DEDC5E4BE910691ED8ED7F606B175198481E472BC86AA",
-          "profile": "/Users/mrzleo/.ohos/config/openharmony/auto_ohos_default_ArkTSDistributedCalc_tutorial.samples.etsdistributedcalc.p7b",
-          "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/mrzleo/.ohos/config/openharmony/auto_ohos_default_ArkTSDistributedCalc_tutorial.samples.etsdistributedcalc.p12"
-        }
-      }
-    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [
