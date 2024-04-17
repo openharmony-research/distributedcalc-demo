@@ -40,8 +40,10 @@ choose the device to connect
 ```
 uinput -T -c 250 450
 ```
+![connect](images/3.png)
+
 then you can type any number in the calc, and you will see the two device display same content.
-![content](images/2.png)
+![content](images/4.png)
 type 
 ```
 aa force-stop tutorial.samples.etsdistributedcalc
