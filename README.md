@@ -44,14 +44,14 @@ uinput -T -c 250 450
 
 then you can type any number in the calc, and you will see the two device display same content.
 ![content](images/4.png)
-If you want to exit, you need to change the pair option to `local`
+If you want to exit, you need to change the pair option to `local` to exit the app on the second device
 ```
 uinput -T -c 420 80
 ```
 ```
-uinput -T -c 250 670???
+uinput -T -c 250 400
 ```
-then the other devic will exit the app.
+then the app on the second device will exit.
 Now you can type 
 ```
 aa force-stop tutorial.samples.etsdistributedcalc
