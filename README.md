@@ -7,7 +7,7 @@ To download the code, run the following command:
 git clone https://github.com/openharmony-research/distributedcalc-demo.git
 ```
 Open the project in DevEco Studio. Then, build the hap. If you build successfully, you will see:
-![build](image/1.png)
+![build](images/2.png)
 
 After a successful build, upload the `entry-default-signed.hap` to the server using command like `scp`.
 
@@ -44,8 +44,16 @@ uinput -T -c 250 450
 
 then you can type any number in the calc, and you will see the two device display same content.
 ![content](images/4.png)
-type 
+If you want to exit, you need to change the pair option to `local`
+```
+uinput -T -c 420 80
+```
+```
+uinput -T -c 250 670???
+```
+then the other devic will exit the app.
+Now you can type 
 ```
 aa force-stop tutorial.samples.etsdistributedcalc
 ```
-to exit.
+to exit the app on the primary device.
