@@ -2,6 +2,7 @@
 
 This is an app built using DevEco Studio.
 
+## build and install
 To download the code, run the following command:
 ```
 git clone https://github.com/openharmony-research/distributedcalc-demo.git
@@ -20,13 +21,15 @@ To install the app, use the following command:
 ```
 hdc -t <ip> install xxx.hap
 ```
-
+## use
 To launch the demo app, use the command:
 ```
 aa start -a MainAbility -b tutorial.samples.etsdistributedcalc
 ```
 
 To experience the disrtibuted ability, you need to open 2 OpenHarmony device and pair them.
+
+
 
 After pairing, type in the following command in QEMU to confirm permissions
 ```
@@ -44,6 +47,7 @@ uinput -T -c 250 450
 
 then you can type any number in the calc, and you will see the two device display same content.
 ![content](images/4.png)
+## exit
 If you want to exit, you need to change the pair option to `local` to exit the app on the second device
 ```
 uinput -T -c 420 80
