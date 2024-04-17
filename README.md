@@ -39,6 +39,7 @@ then choose the device
 
 and the other device will requeset user's 'allow' to pair, after allowing
 you need to type the pin code in the primary device
+
 ![pin1](images/9.png) ![pin2](images/10.png)
 
 After pairing, type in the following command in QEMU to confirm permissions
