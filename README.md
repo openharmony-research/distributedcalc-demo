@@ -29,7 +29,17 @@ aa start -a MainAbility -b tutorial.samples.etsdistributedcalc
 
 To experience the disrtibuted ability, you need to open 2 OpenHarmony device and pair them.
 
+First you need 'touch' this button:
 
+![button](images/7.png)
+
+then choose the device
+
+![device](images/8.png)
+
+and the other device will requeset user's 'allow' to pair, after allowing
+you need to type the pin code in the primary device
+![pin1](images/9.png) ![pin2](images/10.png)
 
 After pairing, type in the following command in QEMU to confirm permissions
 ```
