@@ -21,7 +21,19 @@ To install the app, use the following command:
 ```
 hdc -t <ip> install xxx.hap
 ```
-## use
+
+## Video
+
+https://github.com/openharmony-research/distributedcalc-demo/assets/25260092/bb4192fb-a317-4d3f-ab00-4b197e0083b4
+
+
+https://github.com/openharmony-research/distributedcalc-demo/assets/25260092/5be49ccb-93fa-41f3-b1c4-f316d59c28c5
+
+
+https://github.com/openharmony-research/distributedcalc-demo/assets/25260092/0bff6024-d938-42fb-8520-100e7b5ace4e
+
+## usage
+
 To launch the demo app, use the command:
 ```
 aa start -a MainAbility -b tutorial.samples.etsdistributedcalc
